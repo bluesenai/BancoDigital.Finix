@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#e56a2b, #3a3a3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 900px;
+    height: 550px;
+    background: #171717;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.phoenix {
+    position: absolute;
+    width: 500px;
+    opacity: 0.15;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    width: 50%;
+    z-index: 2;
+}
+
+.left h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.right {
+    width: 50%;
+    z-index: 2;
+    padding-left: 40px;
+}
+
+.right h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 38px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon::before {
+    content: "👤";
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pass::before {
+    content: "🔒";
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+.btn {
+    width: 100%;
+    background: #e56a2b;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: #e56a2b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
