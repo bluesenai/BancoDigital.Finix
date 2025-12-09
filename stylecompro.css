@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0e1215;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #1c1c1c;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.valor {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff7a32;
+    margin-bottom: 40px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 22px;
+}
+
+.col-esq {
+    width: 40%;
+    line-height: 32px;
+}
+
+.col-dir {
+    width: 55%;
+    text-align: right;
+    line-height: 32px;
+}
+
+.sec {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.sair-btn {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background: #ff7a32;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 18px 60px;
+    border-radius: 40px;
+    cursor: pointer;
+}

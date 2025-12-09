@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #0b0f14;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    padding: 35px;
+    background: #1a1a1a;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* SETA DE VOLTAR */
+.back-btn {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+/* CAIXA DE PESQUISA */
+.search-area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-box {
+    display: flex;
+    width: 60%;
+    max-width: 650px;
+    background: #f57c32;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+}
+
+.search-box button {
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+}
+
+/* CARDS */
+.card {
+    background: #242424;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.card p {
+    margin: 8px 0 0 0;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.valor {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.negativo {
+    color: #ff5e5e;
+}
+
+.positivo {
+    color: #62ff62;
+}

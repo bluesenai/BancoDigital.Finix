@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.top-bar {
+    width: 100%;
+    background-color: #f47c3c;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.top-bar .icon {
+    font-size: 40px;
+}
+
+.container {
+    padding: 40px;
+    background-color: #1a1a1a;
+    min-height: 500px;
+}
+
+.saldo-title {
+    font-size: 32px;
+    margin: 0;
+}
+
+.saldo-valor {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-area {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    background-color: #252525;
+    padding: 25px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}

@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Histórico de Transações</title>
+    <link rel="stylesheet" href="styl.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <a href="index.html" class="back-btn">←</a>
+
+        <h1>Histórico de transações</h1>
+
+        <div class="search-area">
+            <div class="search-box">
+                <input type="text" placeholder="Informação chave ( Nome, data, etc)">
+                <button>🔍</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h2>Ana Clara</h2>
+                <p>20/12/2025 • 20:00 • pix</p>
+            </div>
+            <span class="valor negativo">- R$20,00</span>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h2>Gabriel Mendes</h2>
+                <p>11/11/2025 • 11:05 • pix</p>
+            </div>
+            <span class="valor positivo">+ R$50,00</span>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <h2>Nicolas Santana</h2>
+                <p>31/03/2025 • 13:00 • pix</p>
+            </div>
+            <span class="valor negativo">- R$80,00</span>
+        </div>
+
+    </div>
+
 </body>
 </html>
