@@ -83,15 +83,10 @@ body {
 }
 
 .icon::before {
-    content: "👤";
     position: absolute;
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.pass::before {
-    content: "🔒";
 }
 
 .options {
@@ -102,7 +97,7 @@ body {
 }
 
 .btn {
-    width: 100%;
+    width: 250px;
     background: #e56a2b;
     border: none;
     padding: 12px;
@@ -110,6 +105,8 @@ body {
     font-size: 18px;
     color: white;
     cursor: pointer;
+    display: block;
+    margin: 25px auto 10px;
 }
 
 .signup {
