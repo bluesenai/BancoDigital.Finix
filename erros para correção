@@ -1,28 +1,34 @@
+    Cadastro
 salvamento de dados de cadastro
 preenchimento obrigatorio de campos de login e cadastro
 campo de senhas iguais
 tamanho logo css cadastro
 
+    Login
 css login
 obrigatoriedade de campo para login
 conexão com cadastro
 
+    pagina inicial
 css pagina inicial
 trocar usuario pelo nome cadastrado
 icone de ajuda
 trocar asteristicos de saldo pelo valor real
 
+    saldo
 ao pesquisar apacerer dados condizentes
 
 arrumar botão siperior
 
+tranferencia
 editar valor e nome condizentes com o que foi preenchido anteriormente
-
 encrever msng deve mudar em caso de escrita
 
+    Senha p tranferencia
 senha deve ser a mesma de cadastro
 
+    comprovante
 no comprovante as informações devem se alterar conforme o que preenchido anteriormente e os dados de cadastro do usuario
 
-arrumar css cartões
-mensagem de solicitado quando os botões aparecem
+    cartões
+mensagem de solicitado quando os botões aparecem (não consegui)
