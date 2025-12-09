@@ -1,57 +1,53 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0c0c0c;
+    background: #141414;
     font-family: Arial, sans-serif;
     color: white;
+}
+
+.topo {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.voltar {
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    border: 2px solid #7f3cff;
-    padding: 40px;
-    margin-top: 30px;
-    background-color: #1a1a1a;
-}
-
-h1 {
-    font-size: 40px;
-    margin-bottom: 40px;
-}
-
-.cards {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 40px;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 60px;
 }
 
-.card-item {
+.card-box {
     text-align: center;
 }
 
-.card-img {
-    width: 330px;
+.cartao {
+    width: 260px;
     border-radius: 10px;
 }
 
 .btn {
-    margin-top: 20px;
     display: inline-block;
-    background-color: #f47c3c;
+    margin-top: 20px;
+    padding: 12px 40px;
+    background: #FF7A32;
     color: white;
-    padding: 15px 45px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
+    border-radius: 22px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .btn:hover {
-    background-color: #ffa466;
-    transform: scale(1.05);
+    background: #ff6a10;
 }
