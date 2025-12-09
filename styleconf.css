@@ -30,10 +30,14 @@ h1 {
 }
 
 .back-arrow {
-    text-decoration: none;
-    color: white;
+    position: absolute;
+    top: 35px;
+    right: 50px;
     font-size: 50px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .label {

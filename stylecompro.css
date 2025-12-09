@@ -38,12 +38,14 @@ body {
 .col-esq {
     width: 40%;
     line-height: 32px;
+   
 }
 
 .col-dir {
     width: 55%;
     text-align: right;
     line-height: 32px;
+    margin-top: 60px;
 }
 
 .sec {
@@ -54,13 +56,12 @@ body {
 
 .sair-btn {
     position: absolute;
-    bottom: 40px;
+    margin-top: auto;
     right: 40px;
     background: #ff7a32;
     color: white;
     border: none;
-    font-size: 28px;
     padding: 18px 60px;
     border-radius: 40px;
-    cursor: pointer;
+    font-size: 28px;
 }
