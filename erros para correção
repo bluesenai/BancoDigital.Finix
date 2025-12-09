@@ -1,11 +1,14 @@
     Cadastro
-salvamento de dados de cadastro
 preenchimento obrigatorio de campos de login e cadastro (?)
 campo de senhas iguais (?)
+centralizar texto botão
+botão de fazer login parou de funcionar
 
     Login
 obrigatoriedade de campo para login
 conexão com cadastro
+centralizar texto botão
+entrnado sutomatico msm sem login
 
     pagina inicial
 trocar usuario pelo nome cadastrado (provavelmente não é possivel)
@@ -20,7 +23,6 @@ encrever msng deve mudar em caso de escrita
 
     Senha p tranferencia
 senha deve ser a mesma de cadastro
-posição do botão
 
     comprovante
 no comprovante as informações devem se alterar conforme o que preenchido anteriormente e os dados de cadastro do usuario
